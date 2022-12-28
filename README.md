@@ -1,7 +1,7 @@
-<h1 style="font-size: 12px"># beacademy-devstart-paylivre-html</h1>
+# beacademy-devstart-paylivre-html <br>
 
-# Introdução ao Curso HTML - 
-O que é HTML HTML <br>
+# Introdução ao Curso HTML 
+O que é HTML<br>
 
 # Atributos e Atributos Globais HTML <br>
 
