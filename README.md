@@ -1,6 +1,6 @@
 # beacademy-devstart-paylivre-html <br>
 
-# Introdução ao Curso HTML 
+## Introdução ao Curso HTML 
 O que é HTML<br>
 
  Atributos e Atributos Globais HTML <br>
