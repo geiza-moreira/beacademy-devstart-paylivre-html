@@ -1,0 +1,52 @@
+<fieldset>
+    <legend>Trabalhando com inputs</legend> 
+
+    <input type="text" placeholder="Preencha o seu nome"
+    size="60" minlength="8"
+    maxlength="20" title="Preencha o dado" 
+    readonly>
+
+
+<!--
+    *required bloqueia a caixa até que se coloque um conteúdo nele
+    * disebled não consegue preencher nada
+    * readnly fica somente leitura e não consegue fazer modificações
+-->
+
+
+<!--Input Number-->
+<input type="number" 
+size="50" minlength="6"
+maxlength="12" title="Preencha o dado">
+
+
+<input type="email" 
+size="24" title="Preencha o dado"
+>  <br>
+
+
+<!-- Trabalhando com Senha-->
+
+<input type="password" 
+size="24" 
+ title="Sua senha precisa ser em Hexadecimal"
+pattern="[0-9a-fA-F]{4,8}"
+required inputmode="numerico"> 
+
+
+ <!--Expressões regulares pattern , para prencher precisa de letras maiúsculas ou minúsculas  https://www.w3schools.com/tags/att_input_pattern.asp  -->
+<br>
+
+<input type="hidden" value="Eu estou escondido=)" == $0>
+ <!-- hidden usado para armazenar senhas criptografadas temporariamente, mas não é recomendado-->
+ <input type="color">
+ <input type="date">
+
+ <input type="datetime-local">
+
+ <!--para conferir se funciona em todos os navegadores - CANIUSE-->
+<button type="submit">Enviar</button>
+<br>
+
+
+</fieldset>
